@@ -1,0 +1,39 @@
+.tape-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+}
+
+.tape-list .tape-list_tape {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.tape-list .tape-list_tape:last-of-type {
+    margin-bottom: 0;
+}
+
+.tape-list .tape-list_tape .editable-label {
+    max-width: 12rem;
+    color: #606060;
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tape-list .tape-list_tape .tape-list_controls {
+    display: flex;
+    align-items: center;
+}
+
+.tape-list_empty {
+    color: #aaa;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0;
+}

@@ -1,0 +1,8 @@
+.play-button {
+    color: #5CA852;
+    font-size: 1.25rem;
+}
+
+.play-button.play-button_playing {
+    color: #31A4A8;
+}

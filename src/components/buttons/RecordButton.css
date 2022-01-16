@@ -1,0 +1,8 @@
+.record-button {
+    color: #F56D5F;
+    font-size: 1.25rem;
+}
+
+.record-button.record-button_recording {
+    color: #31A4A8;
+}

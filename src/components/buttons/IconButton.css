@@ -1,0 +1,21 @@
+.icon-button {
+    align-items: center;
+    display: flex;
+    height: 1.5rem;
+    justify-content: center;
+    width: 1.5rem;
+    transition: color 0.5s, transform 0.5s;
+    transform: scale(1.0);
+}
+
+.icon-button.icon-button_disabled {
+    color: #ddd !important;
+}
+
+.icon-button:not(.icon-button_disabled):hover {
+    transform: scale(1.25);
+}
+
+.icon-button:not(.icon-button_disabled):active {
+    transform: scale(0.8);
+}
