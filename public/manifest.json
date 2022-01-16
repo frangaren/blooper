@@ -40,7 +40,7 @@
         "value": "same-origin"
     },
     "homepage_url": "https://fge.pw/",
-    "incognito": "spanning",
+    "incognito": "not_allowed",
     "minimum_chrome_version": "96.0.4664.110",
     "offline_enabled": true,
     "optional_permissions": [],

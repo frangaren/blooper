@@ -28,9 +28,9 @@ const reduceStopRecording: CaseReducer<State> = (
     state: State,
     action: Action,
 ) => {
-    // TODO: Update creationTimestamp and updateTimestamp.
     const recording = selectRecordingStatus(state);
     if (recording) {
+        console.log("STOP_RECORDING");
         const tape = selectRecordingTape(state) as Tape;
         state = updateRecordingStatus(state, false);
         if (tape.steps.length > 0) {
@@ -46,7 +46,6 @@ const reduceRecordStep: CaseReducer<State> = (
     state: State,
     action: AnyAction,
 ) => {
-    console.log("REDUCER", action.payload);
     const recording = selectRecordingStatus(state);
     if (recording) {
         state = addRecordingStep(state, action.payload.step);

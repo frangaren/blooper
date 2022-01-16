@@ -44,7 +44,6 @@ export class RecorderServer {
         _reply: (response?: any) => void,
     ): void {
         if (message.type === "recorder/step") {
-            console.log("STEP", sender.tab?.id, this.#tabId);
             if (sender.tab?.id !== undefined && sender.tab?.id === this.#tabId) {
                 this.#dispatch(recordStep({ step: message.step }));
             }

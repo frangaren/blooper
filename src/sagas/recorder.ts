@@ -12,11 +12,9 @@ export function* record(
             selectRecordingStatus,
         )) as boolean;
         if (recording) {
-            console.log("START");
             const tabId = (yield select(selectRecordingTab)) as number;
             yield call(recorder.start.bind(recorder), tabId);
         } else {
-            console.log("STOP");
             yield call(recorder.stop.bind(recorder));
         }
     }

@@ -10,6 +10,7 @@ export const rootReducer: Reducer<State> = (
     state: State = createState(),
     action: AnyAction
 ) => {
+    console.log(action.type);
     state = reducePlaying(state, action);
     state = reduceRecording(state, action);
     state = reduceTapes(state, action);
