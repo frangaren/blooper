@@ -1,22 +1,8 @@
-# Getting Started with Create React App
+<p align="center">
+<img src="https://raw.githubusercontent.com/frangaren/blooper/main/public/icon128.png"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Blooper
+A Google Chrome extension that allows you to record and replay actions on webpages. In this development release, its functionality is currently limited to clicks and writting text on input fields.
 
-## Available Scripts
-
-In the project directory, you can run:
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+⚠️ Blooper is experimental and using it may impose security risks. ⚠️
